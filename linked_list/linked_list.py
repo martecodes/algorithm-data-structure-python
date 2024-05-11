@@ -109,10 +109,5 @@ class LinkedList:
             self.tail = None
         
         return old_node
-        
 
-my_linked_list = LinkedList(4)
-my_linked_list.append(5)
-my_linked_list.append(6)
-my_linked_list.prepend(3)
-print(my_linked_list.print_list())
+
